@@ -11,8 +11,17 @@ struct PlayerScores: View {
     @EnvironmentObject var appManager : AppManager
     var body: some View {
         VStack(spacing: 10){
-            Text("Score")
-                .font(.largeTitle)
+            HStack {
+                Image(systemName: "play.fill")
+                    .rotationEffect(.degrees(180))
+                    .foregroundStyle(.red)
+                    .opacity(appManager.game.playerTurn == PlayerTurn.PlayerOne ? 1 : 0)
+                Text("Score")
+                    .font(.largeTitle)
+                Image(systemName: "play.fill")
+                    .foregroundStyle(.blue)
+                    .opacity(appManager.game.playerTurn == PlayerTurn.PlayerTwo ? 1 : 0)
+            }
             HStack {
                 Spacer()
                 VStack {

@@ -18,6 +18,7 @@
 		C6EEF00B2D87780800A715A1 /* SingleDartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF00A2D87780800A715A1 /* SingleDartButton.swift */; };
 		C6EEF00E2D87A19200A715A1 /* PlayerScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF00D2D87A19200A715A1 /* PlayerScores.swift */; };
 		C6EEF0102D87A2C100A715A1 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF00F2D87A2C100A715A1 /* ResetButton.swift */; };
+		C6EEF0122D888EFF00A715A1 /* SmallDartButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF0112D888EFF00A715A1 /* SmallDartButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C6EEF00A2D87780800A715A1 /* SingleDartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDartButton.swift; sourceTree = "<group>"; };
 		C6EEF00D2D87A19200A715A1 /* PlayerScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScores.swift; sourceTree = "<group>"; };
 		C6EEF00F2D87A2C100A715A1 /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
+		C6EEF0112D888EFF00A715A1 /* SmallDartButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallDartButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				C6EEF00A2D87780800A715A1 /* SingleDartButton.swift */,
 				C6EEF00D2D87A19200A715A1 /* PlayerScores.swift */,
 				C6EEF00F2D87A2C100A715A1 /* ResetButton.swift */,
+				C6EEF0112D888EFF00A715A1 /* SmallDartButtons.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				C6EEEFF22D873EAA00A715A1 /* ContentView.swift in Sources */,
 				C6EEF00E2D87A19200A715A1 /* PlayerScores.swift in Sources */,
+				C6EEF0122D888EFF00A715A1 /* SmallDartButtons.swift in Sources */,
 				C6EEF0092D8776BE00A715A1 /* MainView.swift in Sources */,
 				C6EEF0052D874B8800A715A1 /* AppManager.swift in Sources */,
 				C6EEF0072D87769E00A715A1 /* DartButtons.swift in Sources */,

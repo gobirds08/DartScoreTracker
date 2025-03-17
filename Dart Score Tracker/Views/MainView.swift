@@ -18,7 +18,9 @@ struct MainView: View {
             // Score
             PlayerScores()
             // Dart Buttons
-            DartButtons()
+            SmallDartButtons()
+            //Current Selections
+            
             // Submit and Undo Buttons
         }
         .padding()
