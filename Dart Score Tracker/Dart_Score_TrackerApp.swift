@@ -10,11 +10,11 @@ import SwiftUI
 @main
 struct Dart_Score_TrackerApp: App {
     // add manager here
-    // @StateObject var appManager : AppManager = AppManager()
+    @StateObject var appManager : AppManager = AppManager()
     var body: some Scene {
         WindowGroup {
             ContentView()
-            //.environmentObject(appManager)
+                .environmentObject(appManager)
         }
     }
 }

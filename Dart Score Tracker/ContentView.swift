@@ -10,8 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color.mint
-                .ignoresSafeArea()
             MainView()
         }
     }
@@ -19,4 +17,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(AppManager())
 }

@@ -15,18 +15,19 @@ struct PlayerScores: View {
                 Image(systemName: "play.fill")
                     .rotationEffect(.degrees(180))
                     .foregroundStyle(.red)
-                    .opacity(appManager.game.playerTurn == PlayerTurn.PlayerOne ? 1 : 0)
+                    .opacity(appManager.game.playerTurn == Player.PlayerOne ? 1 : 0)
                 Text("Score")
-                    .font(.largeTitle)
+                    .font(.system(size: 70))
                 Image(systemName: "play.fill")
                     .foregroundStyle(.blue)
-                    .opacity(appManager.game.playerTurn == PlayerTurn.PlayerTwo ? 1 : 0)
+                    .opacity(appManager.game.playerTurn == Player.PlayerTwo ? 1 : 0)
             }
             HStack {
                 Spacer()
                 VStack {
                     Text("Player 1")
-                    Text(String(appManager.game.score[PlayerTurn.PlayerOne]!))
+                    Text(String(appManager.game.score[Player.PlayerOne]!))
+                        .font(.system(size: 70))
                         
                 }
                 .foregroundStyle(.red)
@@ -34,7 +35,8 @@ struct PlayerScores: View {
                 Spacer()
                 VStack {
                     Text("Player 2")
-                    Text(String(appManager.game.score[PlayerTurn.PlayerTwo]!))
+                    Text(String(appManager.game.score[Player.PlayerTwo]!))
+                        .font(.system(size: 70))
                 }
                 .foregroundStyle(.blue)
                 Spacer()

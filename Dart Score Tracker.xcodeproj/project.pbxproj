@@ -19,6 +19,9 @@
 		C6EEF00E2D87A19200A715A1 /* PlayerScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF00D2D87A19200A715A1 /* PlayerScores.swift */; };
 		C6EEF0102D87A2C100A715A1 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF00F2D87A2C100A715A1 /* ResetButton.swift */; };
 		C6EEF0122D888EFF00A715A1 /* SmallDartButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF0112D888EFF00A715A1 /* SmallDartButtons.swift */; };
+		C6EEF0142D8891D800A715A1 /* CurrentSelections.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF0132D8891D800A715A1 /* CurrentSelections.swift */; };
+		C6EEF0162D8891EC00A715A1 /* ControlButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF0152D8891EC00A715A1 /* ControlButtons.swift */; };
+		C6EEF0182D88ADFB00A715A1 /* PlayerScoresHit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF0172D88ADFB00A715A1 /* PlayerScoresHit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		C6EEF00D2D87A19200A715A1 /* PlayerScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScores.swift; sourceTree = "<group>"; };
 		C6EEF00F2D87A2C100A715A1 /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
 		C6EEF0112D888EFF00A715A1 /* SmallDartButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallDartButtons.swift; sourceTree = "<group>"; };
+		C6EEF0132D8891D800A715A1 /* CurrentSelections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSelections.swift; sourceTree = "<group>"; };
+		C6EEF0152D8891EC00A715A1 /* ControlButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButtons.swift; sourceTree = "<group>"; };
+		C6EEF0172D88ADFB00A715A1 /* PlayerScoresHit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoresHit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,9 @@
 				C6EEF00D2D87A19200A715A1 /* PlayerScores.swift */,
 				C6EEF00F2D87A2C100A715A1 /* ResetButton.swift */,
 				C6EEF0112D888EFF00A715A1 /* SmallDartButtons.swift */,
+				C6EEF0132D8891D800A715A1 /* CurrentSelections.swift */,
+				C6EEF0152D8891EC00A715A1 /* ControlButtons.swift */,
+				C6EEF0172D88ADFB00A715A1 /* PlayerScoresHit.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,8 +202,11 @@
 				C6EEF0072D87769E00A715A1 /* DartButtons.swift in Sources */,
 				C6EEF00B2D87780800A715A1 /* SingleDartButton.swift in Sources */,
 				C6EEEFF02D873EAA00A715A1 /* Dart_Score_TrackerApp.swift in Sources */,
+				C6EEF0142D8891D800A715A1 /* CurrentSelections.swift in Sources */,
 				C6EEF0102D87A2C100A715A1 /* ResetButton.swift in Sources */,
+				C6EEF0182D88ADFB00A715A1 /* PlayerScoresHit.swift in Sources */,
 				C6EEF0022D8749E900A715A1 /* Game.swift in Sources */,
+				C6EEF0162D8891EC00A715A1 /* ControlButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
