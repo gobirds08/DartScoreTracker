@@ -17,6 +17,7 @@ struct Game {
                 18 : 0, 19 : 0, 20 : 0, 21 : 0]]
     
     var playerTurn : PlayerTurn = PlayerTurn.PlayerOne
+    var score : [PlayerTurn : Int] = [PlayerTurn.PlayerOne : 0, PlayerTurn.PlayerTwo : 0]
 }
 
 enum PlayerTurn {

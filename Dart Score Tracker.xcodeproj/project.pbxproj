@@ -16,6 +16,8 @@
 		C6EEF0072D87769E00A715A1 /* DartButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF0062D87769E00A715A1 /* DartButtons.swift */; };
 		C6EEF0092D8776BE00A715A1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF0082D8776BE00A715A1 /* MainView.swift */; };
 		C6EEF00B2D87780800A715A1 /* SingleDartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF00A2D87780800A715A1 /* SingleDartButton.swift */; };
+		C6EEF00E2D87A19200A715A1 /* PlayerScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF00D2D87A19200A715A1 /* PlayerScores.swift */; };
+		C6EEF0102D87A2C100A715A1 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF00F2D87A2C100A715A1 /* ResetButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		C6EEF0062D87769E00A715A1 /* DartButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartButtons.swift; sourceTree = "<group>"; };
 		C6EEF0082D8776BE00A715A1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C6EEF00A2D87780800A715A1 /* SingleDartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDartButton.swift; sourceTree = "<group>"; };
+		C6EEF00D2D87A19200A715A1 /* PlayerScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScores.swift; sourceTree = "<group>"; };
+		C6EEF00F2D87A2C100A715A1 /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				C6EEF0062D87769E00A715A1 /* DartButtons.swift */,
 				C6EEF0082D8776BE00A715A1 /* MainView.swift */,
 				C6EEF00A2D87780800A715A1 /* SingleDartButton.swift */,
+				C6EEF00D2D87A19200A715A1 /* PlayerScores.swift */,
+				C6EEF00F2D87A2C100A715A1 /* ResetButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,11 +183,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6EEEFF22D873EAA00A715A1 /* ContentView.swift in Sources */,
+				C6EEF00E2D87A19200A715A1 /* PlayerScores.swift in Sources */,
 				C6EEF0092D8776BE00A715A1 /* MainView.swift in Sources */,
 				C6EEF0052D874B8800A715A1 /* AppManager.swift in Sources */,
 				C6EEF0072D87769E00A715A1 /* DartButtons.swift in Sources */,
 				C6EEF00B2D87780800A715A1 /* SingleDartButton.swift in Sources */,
 				C6EEEFF02D873EAA00A715A1 /* Dart_Score_TrackerApp.swift in Sources */,
+				C6EEF0102D87A2C100A715A1 /* ResetButton.swift in Sources */,
 				C6EEF0022D8749E900A715A1 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

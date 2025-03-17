@@ -11,16 +11,21 @@ struct MainView: View {
     var body: some View {
         VStack {
             // Upper Button for reset
-            
+            HStack {
+                ResetButton()
+                Spacer()
+            }
             // Score
-            
+            PlayerScores()
             // Dart Buttons
-            
+            DartButtons()
             // Submit and Undo Buttons
         }
+        .padding()
     }
 }
 
 #Preview {
     MainView()
+        .environmentObject(AppManager())
 }
