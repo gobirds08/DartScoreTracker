@@ -9,20 +9,11 @@ import Foundation
 
 class AppManager : ObservableObject {
     @Published var game : Game = Game()
-    
     @Published var selections : [(Int , Int)] = []
     
     
     func reset_game() {
-//        game.playerTurn = Player.PlayerOne
-//        
-//        for num in game.board[Player.PlayerOne]!.keys {
-//            game.board[Player.PlayerOne]![num] = 0
-//            game.board[Player.PlayerTwo]![num] = 0
-//        }
-//        game.gameOver = false
-//        game.score[Player.PlayerOne] = 0
-//        game.score[Player.PlayerTwo] = 0
+        selections.removeAll()
         game = Game()
     }
     

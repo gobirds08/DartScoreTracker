@@ -15,10 +15,10 @@ struct PlayerScoresHit: View {
         // line.diagonal
         // maybe: x.circle.fill or use two line.diagonals
 //        ScrollView(.horizontal, showsIndicators: true){
-            HStack(spacing: 15){
-                Spacer()
+        HStack{
                 if let boardEntries = appManager.game.board[player] { // ✅ Safely unwrap dictionary lookup
                     ForEach(boardEntries.sorted(by: { $0.key < $1.key }), id: \.key) { num, times in
+                        Spacer()
                         VStack(spacing: 10){
                             Text(num == 25 ? "C" : "\(num)")
                             let image = appManager.get_icon_string(times: times)
@@ -34,7 +34,7 @@ struct PlayerScoresHit: View {
                                 }
                             }
                         }
-                        .font(.system(size: 20))
+                        .font(.system(size: 28))
                     }
                 }
                 Spacer()

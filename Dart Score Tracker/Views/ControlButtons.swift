@@ -38,6 +38,7 @@ struct ControlButtons: View {
                 .foregroundStyle(.green)
                 Spacer()
             }
+            .font(.system(size: 25))
         }
     }
 }

@@ -16,6 +16,7 @@ struct SingleDartButton: View {
                         RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
                         Text(num == 25 ? "C" : String(num))
                             .foregroundStyle(.black)
+                            .font(.system(size: 30))
                     }
                 }
                 .simultaneousGesture(
