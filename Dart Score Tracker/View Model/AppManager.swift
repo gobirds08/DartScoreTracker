@@ -8,9 +8,14 @@
 import Foundation
 
 class AppManager : ObservableObject {
-    @Published var game : Game = Game()
+    @Published var game : Game
     @Published var selections : [(Int , Int)] = []
     
+    let gameStorage : GameManager = GameManager<Game>()
+
+    init(){
+        game = gameStorage.modelData ?? Game()
+    }
     
     func reset_game() {
         selections.removeAll()
@@ -90,5 +95,9 @@ class AppManager : ObservableObject {
             return "line.diagonal"
         }
         return ""
+    }
+    
+    func save() {
+        gameStorage.save(game: game)
     }
 }
