@@ -25,6 +25,7 @@ struct SmallDartButtons: View {
                 }
             }
         }
+        .frame(height: 80)
     }
 }
 

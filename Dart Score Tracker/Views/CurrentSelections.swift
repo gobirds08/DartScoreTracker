@@ -14,7 +14,7 @@ struct CurrentSelections: View {
             ForEach(Array(appManager.selections.enumerated()), id: \.offset) { index, selection in
                     Spacer()
                     Text(appManager.selection_to_string(selection: selection))
-                        .font(.system(size: 20))
+                        .font(.system(size: 25))
             }
             Spacer()
         }

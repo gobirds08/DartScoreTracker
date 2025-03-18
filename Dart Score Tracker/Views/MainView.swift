@@ -19,15 +19,21 @@ struct MainView: View {
             
             if !appManager.game.gameOver {
                 // Score
+                Spacer()
                 PlayerScores()
                 // Player Scores Hit
+                Spacer()
                 PlayerScoresHit(player: appManager.game.playerTurn)
                     .padding(20)
                 // Dart Buttons
+                Spacer()
                 SmallDartButtons()
                 //Current Selections
+                Spacer()
                 CurrentSelections()
+                    .frame(height: 50)
                 // Submit and Undo Buttons
+                Spacer()
                 ControlButtons()
             } else {
                 Spacer()
@@ -46,8 +52,8 @@ struct MainView: View {
                     }
                 }
                 .font(.system(size: 40))
-                Spacer()
             }
+            Spacer()
         }
         .padding()
     }

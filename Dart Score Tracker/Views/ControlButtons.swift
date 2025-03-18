@@ -18,11 +18,11 @@ struct ControlButtons: View {
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
+                            .foregroundStyle(.blue)
                         Text("Undo")
-                            .foregroundStyle(.black)
                     }
                 }
-                .frame(width: geometry.size.width / 3, height: geometry.size.height / 2)
+                .frame(width: geometry.size.width / 3, height: geometry.size.height)
                 .disabled(appManager.is_selections_empty())
                 Spacer()
                 Button {
@@ -30,16 +30,16 @@ struct ControlButtons: View {
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
+                            .foregroundStyle(.green)
                         Text("Submit")
-                            .foregroundStyle(.black)
                     }
                 }
-                .frame(width: geometry.size.width / 3, height: geometry.size.height / 2)
-                .foregroundStyle(.green)
+                .frame(width: geometry.size.width / 3, height: geometry.size.height)
                 Spacer()
             }
             .font(.system(size: 25))
         }
+        .frame(height: 100)
     }
 }
 

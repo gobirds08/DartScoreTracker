@@ -14,8 +14,9 @@ struct SingleDartButton: View {
                 Button(action: {}) {
                     ZStack {
                         RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
+                            .foregroundStyle(.blue)
                         Text(num == 25 ? "C" : String(num))
-                            .foregroundStyle(.black)
+//                            .foregroundStyle(.black)
                             .font(.system(size: 30))
                     }
                 }

@@ -14,7 +14,7 @@ struct ResetButton: View {
             appManager.reset_game()
         } label: {
             Image(systemName: "plus")
-                .foregroundStyle(.black)
+//                .foregroundStyle(.black)
                 .font(.title)
         }
     }

@@ -24,7 +24,7 @@ struct PlayerScoresHit: View {
                             let image = appManager.get_icon_string(times: times)
                             if times != 2 {
                                 Image(systemName: image)
-                                    .foregroundStyle(.black)
+//                                    .foregroundStyle(.black)
                                     .opacity(times == 0 ? 0 : 1)
                             } else {
                                 ZStack {
